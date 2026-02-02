@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I evaluated the input handling and command execution logic of a web application’s feedback feature. During testing, I identified a blind OS command injection vulnerability caused by unsafe inclusion of user-controlled input in shell commands. Although command output was not reflected in HTTP responses, successful exploitation was confirmed using a time-based technique that introduced a deliberate delay in server responses. This project demonstrates how blind command injection flaws can be reliably identified and exploited even in the absence of direct output.
+I evaluated the input handling and command execution logic of a web application’s feedback feature. During testing, I identified a blind OS command injection vulnerability caused by unsafe inclusion of user-controlled input in shell commands. Although command output was not reflected in HTTP responses, successful exploitation was confirmed using a time-based technique that introduced a deliberate delay in server responses. This project demonstrates how blind command injection flaws can be reliably identified and exploited even in the absence of direct output.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Intercepted and analyzed feedback submission requests to identify command execution points.
 
